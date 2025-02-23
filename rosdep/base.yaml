@@ -8802,6 +8802,11 @@ sshpass:
   gentoo: [net-misc/sshpass]
   nixos: [sshpass]
   ubuntu: [sshpass]
+stockfish:
+  arch: [stockfish]
+  debian: [stockfish]
+  fedora: [stockfish]
+  ubuntu: [stockfish]
 stress:
   arch: [stress]
   debian: [stress]

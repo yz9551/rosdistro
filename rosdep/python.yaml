@@ -1030,7 +1030,7 @@ python-cherrypy:
   nixos: [pythonPackages.cherrypy]
   ubuntu: [python-cherrypy3]
 python-chess-pip:
-  *:
+  '*':
     pip:
       packages: [chess]
 python-clearsilver:

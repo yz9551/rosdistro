@@ -146,10 +146,6 @@ casadi-pip:
   ubuntu:
     pip:
       packages: [casadi]
-python3-chess-pip:
-  *:
-    pip:
-      packages: [chess]
 cmakelint-pip:
   debian:
     pip:
@@ -1033,6 +1029,10 @@ python-cherrypy:
   gentoo: [dev-python/cherrypy]
   nixos: [pythonPackages.cherrypy]
   ubuntu: [python-cherrypy3]
+python-chess-pip:
+  *:
+    pip:
+      packages: [chess]
 python-clearsilver:
   debian: [python-clearsilver]
   rhel:

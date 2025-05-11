@@ -146,6 +146,10 @@ casadi-pip:
   ubuntu:
     pip:
       packages: [casadi]
+python3-chess-pip:
+  *:
+    pip:
+      packages: [chess]
 cmakelint-pip:
   debian:
     pip:
